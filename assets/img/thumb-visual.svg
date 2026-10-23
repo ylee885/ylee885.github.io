@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t d"><title id="t">Simultaneous and sequential line-length discrimination</title><desc id="d">Left: one screen shows two lines of slightly different length together. Right: two separate screens of the same proportions, placed diagonally, each with one line, shown one after the other.</desc>
+<rect width="640" height="400" fill="#f2f6f8"/>
+<g stroke="#1c2a3a" stroke-width="2" fill="#fff"><rect x="30" y="80" width="280" height="240"/><rect x="332" y="86" width="138" height="118"/><rect x="472" y="202" width="138" height="118"/></g>
+<g stroke="#1c2a3a" stroke-linecap="round"><g stroke-width="7"><path d="M135 140v120M205 130v140"/></g><g stroke-width="4"><path d="M401 120v50"/><path d="M541 232v60"/></g></g>
+<path d="M404 222l50 50" stroke="#0a7c8c" stroke-width="2" stroke-dasharray="6 5"/><path d="M444 270l12 4-4-12" fill="none" stroke="#0a7c8c" stroke-width="2"/>
+<text x="382" y="262" text-anchor="middle" font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="12" fill="#0a7c8c">time</text>
+<g font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="14" letter-spacing="1.5" fill="#1c2a3a" text-anchor="middle"><text x="170" y="344">SIMULTANEOUS</text><text x="471" y="344">SEQUENTIAL</text><text x="320" y="48" fill="#6b7580">WHICH LINE IS LONGER?</text></g></svg>

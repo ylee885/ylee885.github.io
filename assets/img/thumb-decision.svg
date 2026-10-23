@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="t d"><title id="t">Speed–accuracy trade-off in a drift-diffusion decision</title><desc id="d">Two panels show evidence accumulating over time toward a decision boundary. With a narrow boundary (speed emphasis) the decision is fast; with a wide boundary (accuracy emphasis) it takes longer.</desc>
+<rect width="640" height="400" fill="#f2f6f8"/>
+<g stroke="#1c2a3a" stroke-width="2" fill="#fff"><rect x="30" y="80" width="280" height="240"/><rect x="330" y="80" width="280" height="240"/></g>
+<g stroke="#0a7c8c" stroke-width="2" stroke-dasharray="7 5" fill="none"><path d="M52 163h238M52 237h238M352 128h238M352 272h238"/></g>
+<g fill="none" stroke="#1c2a3a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><path d="M52 200l22-8 18 6 24-14 20 7 26-19 24-5"/><path d="M352 200l24-12 18 17 24-13 20 22 26-20 22-18 24 14 26-30 22-20 10-5"/></g>
+<g fill="#1c2a3a"><circle cx="52" cy="200" r="4"/><circle cx="352" cy="200" r="4"/></g>
+<g fill="#0a7c8c"><circle cx="186" cy="163" r="5"/><circle cx="570" cy="128" r="5"/></g>
+<g stroke="#6b7580" stroke-width="1.5" fill="none"><path d="M52 303h238M352 303h238"/><path d="M284 298l6 5-6 5M584 298l6 5-6 5"/></g>
+<g font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="14" letter-spacing="1.5" fill="#1c2a3a" text-anchor="middle"><text x="170" y="112">SPEED EMPHASIS</text><text x="470" y="112">ACCURACY EMPHASIS</text><text x="320" y="48" font-size="12" letter-spacing="1" fill="#6b7580">HOW DO PEOPLE TRADE SPEED FOR ACCURACY?</text></g>
+<g font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="11" fill="#6b7580" text-anchor="start"><text x="56" y="296">time</text><text x="356" y="296">time</text></g></svg>

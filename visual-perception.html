@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Research on how cognitive abilities contribute to simultaneous versus sequential visual discrimination, and on perceptual organization of surfaces under kinetic occlusion.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Visual Perception & Organization | Yoonsang Lee</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css?v=20261019020416">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" aria-label="Yoonsang Lee home">Yoonsang Lee<span class="wordmark-dot" aria-hidden="true"></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">+</span></button>
+    <nav id="main-nav" aria-label="Main navigation">
+      <a href="index.html#research" aria-current="page">Research</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#about">About</a>
+      <a href="assets/Yoonsang_Lee_CV.pdf">CV <span aria-hidden="true">↗</span></a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </header>
+  <main id="main" class="detail">
+    <section class="section detail-top">
+      <p class="crumb"><a href="index.html#research">← All research</a></p>
+      <span class="eyebrow">Research area 03</span>
+      <h1>Visual Perception &amp; Organization</h1>
+      <p class="lead">How is visual information discriminated, integrated, and organized into objects and surfaces? How do timing demands and the structure of a stimulus change what we perceive?</p>
+    </section>
+
+    <section class="section project" id="visual-discrimination">
+      <div class="project-head"><span class="status">Presented at VSS 2026</span><h2>Simultaneous vs. sequential visual discrimination</h2></div>
+      <div class="project-body">
+        <p class="q">Fine visual discrimination tracks higher-order cognition. Does it draw on different abilities when two stimuli are visible together than when one must be held in memory?</p>
+        <h3>Approach</h3>
+        <p>Participants judged which of two lines was longer, shown together on one screen, or one after the other on two separate screens. Latent-variable models related discrimination thresholds to working memory capacity, fluid intelligence, and attention control.</p>
+        <figure class="loop-fig"><div class="loop-grid"><div><canvas data-loop="sim" aria-label="Animation: two lines appear together on one screen"></canvas><span>Simultaneous</span></div><div><canvas data-loop="seq" aria-label="Animation: one line appears, disappears, then a second line appears"></canvas><span>Sequential</span></div></div><figcaption>Which line is longer? Simultaneous: both lines on one screen. Sequential: one line per screen, one after the other. Timing is illustrative.</figcaption></figure>
+        <h3>My role</h3>
+        <ul class="roles"><li>Data collection oversight</li><li>Analysis</li><li>Poster abstract</li><li><span class="note">Task programmed by Jason Tsukahara</span></li></ul>
+        <h3>Findings</h3>
+        <p>Working memory capacity predicted both formats, while fluid intelligence predicted only simultaneous discrimination. Attention control predicted both but added little beyond the other two. The presentation format itself seems to shape which abilities matter.</p>
+        <ul class="outputs"><li>VSS 2026 poster: <em>When the wait matters: Differences in cognitive ability contributions to simultaneous vs. sequential visual discrimination</em>. Lee, Tsukahara, &amp; Engle.</li></ul>
+      </div>
+    </section>
+
+    <section class="section project" id="perceptual-organization">
+      <div class="project-head"><span class="status">Published 2019</span><h2>Perceptual organization and kinetic occlusion</h2></div>
+      <div class="project-body">
+        <p class="q">When a moving object passes in front of and behind another, do its salient parts decide whether we see it as split?</p>
+        <h3>Approach</h3>
+        <p>An object moved across a stationary one so that its top half was behind and its bottom half in front, an ambiguous event that can be seen as one object cut in two. I varied the object’s contour with concave or convex cusps and measured how often it looked split.</p>
+        <div class="kin-grid">
+          <figure>
+            <canvas class="kin-canvas" data-kin aria-label="Animation: a red object moves back and forth past a blue object, passing behind it with its top half and in front of it with its bottom half. The red object's contour cycles through concave, straight, and convex versions."></canvas>
+            <figcaption><span class="cap-title">The event</span>The red object’s top half passes behind the blue shape and its bottom half in front of it. Contour now: <strong class="kin-label">concave cusps</strong>.<span class="kin-result"></span></figcaption>
+          </figure>
+          <figure>
+            <div class="kin-box"><img src="assets/img/kinetic-percepts.png" width="1200" height="587" alt="Two ways to see the event. Left: the moving red object is cut in two by the blue object. Right: the stationary blue object is cut by the red object."></div>
+            <figcaption><span class="cap-title">Two ways to see it</span>Left: the moving red object is cut in two. Right: the stationary blue object is cut.</figcaption>
+          </figure>
+        </div>
+        <h3>My role</h3>
+        <ul class="roles"><li>Stimulus creation</li><li>Experiment programming</li><li>Behavioral data collection</li><li>Analysis and first draft</li><li><span class="note">Paradigm and study proposed by S. H. Kim, my undergraduate advisor</span></li></ul>
+        <h3>Findings</h3>
+        <p>Objects with concave cusps were more likely to be seen as split than objects with no cusps or convex cusps, and the more concave the contour, the more often it looked cut. The relative width of the object made no significant difference. Salient parts can be perceived as physically broken apart, which changes how we read a motion event and its causes.</p>
+        <ul class="outputs"><li>Kim, S. H., &amp; <strong>Lee, Y.</strong> (2019). <a href="https://doi.org/10.1037/xge0000530">Perception of a surface split induced by globally inconsistent kinetic occlusion: Objects with salient parts break apart easily.</a> <em>Journal of Experimental Psychology: General, 148</em>(3), 595.</li></ul>
+      </div>
+    </section>
+
+    <section class="section next-row"><a class="next-link" href="index.html#research">Back to all research <span aria-hidden="true">↑</span></a></section>
+  </main>
+  <footer class="site-footer"><span>© 2026 Yoonsang Lee</span><span>Last updated October 2026</span><a href="#main">Back to top ↑</a></footer>
+  <script src="assets/js/demos.js?v=20261019021121" defer></script>
+</body>
+</html>
